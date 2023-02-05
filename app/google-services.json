@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "439353838202",
+    "project_id": "mastermach-a3e85",
+    "storage_bucket": "mastermach-a3e85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439353838202:android:2bfa868313d9ada59c89c3",
+        "android_client_info": {
+          "package_name": "com.example.mastermach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439353838202-pmiol0fb03a43qtq0kp66ql0aog3tb97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG9tDsKdoCW292divWeCQhCwGNzBtQ_0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439353838202-pmiol0fb03a43qtq0kp66ql0aog3tb97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
