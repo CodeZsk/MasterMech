@@ -8,29 +8,44 @@
     <item
         android:title="Profile">
         <menu>
+<group>
+
             <item
                 android:id="@+id/nav_staff_Profile"
                 android:title="Profile"
                 android:icon="@drawable/baseline_person_24" />
+</group>
+
         </menu>
     </item>
-    <item
-        android:id="@+id/nav_staff_dashboard"
-        android:title="Dashboard"
-        android:icon="@drawable/baseline_dashboard_24"/>
-    <item
-        android:id="@+id/nav_staff_rent"
-        android:title="Rent"
-        android:icon="@drawable/baseline_directions_car_24"/>
-    <item
-        android:id="@+id/nav_staff_activity"
-        android:title="Activiy"
-        android:icon="@drawable/baseline_history_24"/>
+    <item android:title="Options">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_staff_dashboard"
+                android:title="MasterMach"
+                android:icon="@drawable/baseline_dashboard_24"/>
+            <item
+                android:id="@+id/nav_staff_rent"
+                android:title="Appointments"
+                android:icon="@drawable/baseline_directions_car_24"/>
+            <item
+                android:id="@+id/nav_staff_activity"
+                android:title="Rent History"
+                android:icon="@drawable/baseline_history_24"/>
+            </group>
+        </menu>
+    </item>
+
     <item android:title="Logout">
         <menu>
+            <group>
+
             <item android:id="@+id/nav_staff_logout"
                 android:title="Logout"
                 android:icon="@drawable/baseline_logout_24"/>
+            </group>
+
         </menu>
     </item>
 

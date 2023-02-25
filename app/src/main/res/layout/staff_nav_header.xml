@@ -5,39 +5,48 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginTop="16dp"
-    android:layout_marginStart="16dp"
+
     >
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Master Mach"
-        android:textSize="40dp"
-        android:layout_margin="10dp"
-        android:textStyle="bold" />
-    <ImageView
-        android:layout_width="50pt"
-        android:layout_height="50pt"
-        android:layout_marginLeft="12dp"
-        android:src="@drawable/baseline_person_24"
-        android:layout_marginBottom="10dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Staff Name"
-        android:textSize="30dp"
-        android:layout_marginLeft="12dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email@gmail.com"
-        android:textSize="24dp"
-        android:layout_marginLeft="12dp"/>
+        android:paddingLeft="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Master Mach"
+            android:textSize="30dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/zoro_profile"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Staff Name"
+            android:textSize="18dp"
+            android:layout_marginLeft="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email@gmail.com"
+            android:textSize="15dp"
+            android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="10dp" />
+        android:background="@color/black"
+        />
 
 
 </LinearLayout>
